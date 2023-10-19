@@ -1,0 +1,368 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	main: '';
+	main: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS sebelum reset */
+
+body {
+    font: 16px/20px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    background-color: white;
+}
+
+.member1 {
+    float: right;
+    margin: -20px;
+    margin-right: 10px;
+    margin-top: -35px;
+    color: white;
+    font-size: 12px;
+}
+
+.tanggal1 {
+    float: right;
+    color: white;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.location1 {
+    color: white;
+    font-size: 12px;
+	margin-left: 5px;
+    float: left;
+}
+
+.kantor1 {
+    color: white;
+    float: left;
+	margin-left: 5px;
+    font-weight: bold;
+}
+
+.hi {
+    margin-left: 20px;
+}
+
+.header {
+    padding: 20px;
+}
+
+.kotak1 {
+    width: 450px;
+    height: 110px;
+    background-color: red;
+    margin: auto;
+	border: 2px solid red;
+	border-radius: 5%;
+}
+
+.kotak1-img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+	margin-left: px;
+	margin-top: 3px;
+}
+
+.nama1 {
+    font-weight: bold;
+    color: white;
+}
+
+.job1 {
+    color: white;
+    font-size: 10px;
+}
+
+.today {
+    margin-left: 25px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.today-container {
+    display: flex;
+    align-items: flex-start;
+    max-height: 133px;
+    overflow: auto;
+}
+
+.notif-img {
+    float: right;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.header .judul {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.today1, .today2, .today3 {
+    width: 142px;
+    height: 142px;
+    margin: 5px;
+    float: left;
+}
+
+.today1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.today2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.today3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon2-img {
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+	margin-bottom: 10px;
+}
+
+.jam1{
+	font-weight: bold;
+}
+
+.check1{
+	font-size: 12px;
+}
+
+.icon3-img {
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+	margin-bottom: 10px;
+}
+
+.jam2{
+	font-weight: bold;
+}
+
+.check2{
+	font-size: 12px;
+}
+.icon4-img {
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+	margin-bottom: 10px;
+}
+
+.jam3{
+	font-weight: bold;
+}
+
+.check3{
+	font-size: 12px;
+}
+
+.pcs{
+	margin-left: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.pcskotak{
+	display: flex;
+	align-items: center;
+	width: 400px;
+	height: 150px;
+	margin: auto;
+	border: 2px solid black;
+	border-radius: 5%;
+}
+
+.icon5-img{
+	margin-top: -90px;
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+}
+
+.nama2{
+	margin-top: -70px;
+	margin-left: 5px;
+	font-weight: bold;
+	color: red;
+}
+
+.hari {
+	float: right;
+	margin-top: -70px;
+	margin-left: 190px;
+	margin-right: 5px;
+}
+  
+.tanggal2 {
+	font-size: 14px;
+	float: right;
+	margin-top: -55px;
+	margin-left: -80px;
+}
+
+.kalimat{
+	margin-left: -340px;
+	margin-top: 35px;
+	font-size: 14px;
+    display: inline-block;
+	
+}
+
+.online{
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.icon6-img{
+	margin: auto;
+	align-items: center;
+	display: flex;
+	border: 2px solid gray;
+	border-radius: 5%;
+}
+
+.footer ul li{
+	width: 93px;
+	height: 93px;
+	margin-left: 3px;
+    display: inline-block;
+	text-align: center;
+	line-height: 150px;
+	border-top: 2px inset gray;
+}
+
+.li-home {
+    line-height: 123px;
+    position: relative; 
+}
+
+.li-home img {
+	width: 30px;
+	height: 30px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.li-attendance {
+    line-height: 123px;
+    position: relative; 
+}
+
+.li-attendance img {
+	width: 50px;
+	height: 30px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.li-checkout {
+	background-color: salmon;
+	border-radius: 50%;
+    line-height: 123px;
+    position: relative; 
+}
+
+.li-checkout img {
+	width: 40px;
+	height: 40px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.li-form {
+    line-height: 123px;
+    position: relative; 
+}
+
+.li-form img {
+	width: 30px;
+	height: 30px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.li-setting {
+    line-height: 123px;
+    position: relative; 
+}
+
+.li-setting img {
+	width: 30px;
+	height: 30px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
